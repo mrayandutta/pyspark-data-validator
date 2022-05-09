@@ -1,0 +1,11 @@
+https://vincent.doba.fr/posts/20210124_pyspark-setup-for-intellij-idea/
+
+1.In a terminal, go to your project root directory and activate the virtual environment
+venv\Scripts\activate
+2.Install Pyspark dependency in VirtualEnv
+pip install -r requirements.txt
+3.Deactivate virtual environment
+venv\Scripts\deactivate
+
+Issue with Pyspark 3.1 ,moved back to 2.4.7
+Py4JError: org.apache.spark.api.python.PythonUtils.isEncryptionEnabled does not exist in the JVM
