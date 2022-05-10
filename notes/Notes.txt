@@ -9,3 +9,5 @@ venv\Scripts\deactivate
 
 Issue with Pyspark 3.1 ,moved back to 2.4.7
 Py4JError: org.apache.spark.api.python.PythonUtils.isEncryptionEnabled does not exist in the JVM
+
+https://mungingdata.com/pyspark/sparksession-getorcreate-getactivesession/
